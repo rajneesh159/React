@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #4CAF50; /* Green header background */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.header:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-items li:hover {
+  color: #ffcc00; /* Yellow on hover */
+}
+
+.res-card {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.res-card:hover {
+  transform: translateY(-10px); /* Move the card up on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow on hover */
+}
+
+.res-card img {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.res-card:hover img {
+  transform: scale(1.1); /* Zoom in the image on hover */
+}
+
+.body {
+  padding: 20px;
+}
+
+.filter-btn {
+  background-color: #e0e0e0; /* Light gray search bar background */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: #d0d0d0; /* Slightly darker gray on hover */
+  cursor: pointer;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
